@@ -143,7 +143,7 @@ class TelegramBot(TelegramClient):  # noqa
             return
 
         replies = Replies(self.dcbot, self.dcbot.logger)
-        sender = "[UNKNOWN SENDER]"
+        sender = None
         if tgmsg.sender:
             if hasattr(tgmsg.sender, "first_name"):
                 sender = " ".join(
