@@ -20,10 +20,10 @@ def load_requirements(path: str) -> list:
 
 
 if __name__ == "__main__":
-    MODULE_NAME = "simplebot_tggroups"
+    MODULE_NAME = "simplebot_tgmod"
     DESC = "Bridge Telegram groups with DeltaChat groups."
     KEYWORDS = "simplebot plugin deltachat telegram bridge"
-    URL = f"https://github.com/simplebot-org/{MODULE_NAME}"
+    URL = f"https://github.com/yordante2/simplebot_tggroups_mod"
 
     with open("README.rst", encoding="utf-8") as fh:
         long_description = fh.read()
@@ -40,8 +40,8 @@ if __name__ == "__main__":
         description=DESC,
         long_description=long_description,
         long_description_content_type="text/x-rst",
-        author="adbenitez",
-        author_email="adbenitez@nauta.cu",
+        author="yordante",
+        author_email="odalys.ee@nauta.cu",
         url=URL,
         keywords=KEYWORDS,
         license="MPL",
